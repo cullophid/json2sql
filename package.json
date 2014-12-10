@@ -1,0 +1,20 @@
+{
+  "name": "jsonMysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/.bin/gulp unit"
+  },
+  "author": "Andreas Møller",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "gulp-mocha": "^2.0.0",
+    "gulp-watch": "^3.0.0",
+    "squel": "^3.10.0"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0"
+  }
+}
