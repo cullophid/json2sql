@@ -6,9 +6,8 @@ module.exports = function (fields) {
 	}
 	for (i in fields) {
 		if (fields.hasOwnProperty(i)) {
-			this.query.field(i);
+			this.query.field(i, fields[i] || undefined);
 		}
 	}
 	return this;
 };
-

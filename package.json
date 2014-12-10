@@ -1,13 +1,17 @@
 {
-  "name": "jsonMysql",
-  "version": "1.0.0",
-  "description": "",
+  "name": "json2sql",
+  "version": "0.0.1",
+  "description": "Simple json query language that compiles to a sql string",
   "main": "index.js",
   "scripts": {
     "test": "node node_modules/.bin/gulp unit"
   },
   "author": "Andreas Møller",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cullophid/json2sql.git"
+  },
   "dependencies": {
     "gulp": "^3.8.10",
     "gulp-mocha": "^2.0.0",
@@ -15,6 +19,8 @@
     "squel": "^3.10.0"
   },
   "devDependencies": {
-    "chai": "^1.10.0"
+    "chai": "^1.10.0",
+    "gulp-jshint": "^1.9.0",
+    "jshint-stylish": "^1.0.0"
   }
 }

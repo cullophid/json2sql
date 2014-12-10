@@ -12,4 +12,4 @@ module.exports = function (groupBy) {
 		this.query.group(groupBy[i]);
 	}
 	return this;
-}
+};

@@ -41,3 +41,4 @@ Query.prototype.limit = require('./limit');
 // retun sql string;
 Query.prototype.toString = function () {
 	return this.query.toString();
+};

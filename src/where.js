@@ -45,6 +45,6 @@ module.exports._complexWhere = function (column, json) {
 
 //### whereIn clause
 module.exports._whereIn = function (column, array) {
-	this.query.where(column + ' IN ?', array)
+	this.query.where(column + ' IN ?', array);
 	return this;
 };
