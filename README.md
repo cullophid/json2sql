@@ -3,3 +3,5 @@
 [![Circle CI](https://circleci.com/gh/cullophid/json2sql.svg?style=svg)](https://circleci.com/gh/cullophid/json2sql)
 
 Simple json query language that compiles to SQL. Removes much of the overhead when converting a json http request to an SQL query.
+
+**This library provided no protection agains SQL injection!!!** This library should not be used unless you have a good knowlege of how to prevent sql injection attacks. Server requests should always be validated before being converted to a database query!!! 
